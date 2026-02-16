@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Bakery | Carlton, Nottingham</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Roboto', sans-serif; }
+        body { line-height: 1.6; background: #fff8f0; color: #333; }
+        header { background: #d35400; color: #fff; padding: 20px 0; text-align: center; }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; }
+        nav { display: flex; justify-content: center; gap: 20px; margin-top: 10px; }
+        nav a { color: #fff; text-decoration: none; font-weight: 700; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+        h2 { color: #d35400; margin-bottom: 20px; }
+        .menu-items { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 20px; }
+        .menu-item { background: #fff3e6; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        .menu-item h3 { margin-bottom: 10px; }
+        .contact-info { text-align: center; margin-top: 20px; }
+        footer { background: #d35400; color: #fff; text-align: center; padding: 20px 0; margin-top: 50px; }
+        iframe { width: 100%; height: 300px; border: 0; border-radius: 8px; margin-top: 20px; }
+        @media(max-width:600px){ header h1{font-size:2em;} section{padding:30px 10px;} }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BG Bakery</h1>
+    <p>Delicious handmade pastries fresh every day in Carlton, Nottingham</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to <strong>BG Bakery</strong>, where traditional baking meets bold flavours! We specialise in fresh pastries made from scratch daily — from sweet treats to savoury delights. Our signature items include feta cheese pastries, savoury rolls, sweet pastries, and hot drinks to pair with your favourites.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="menu-item">
+            <h3>Feta Cheese Pastry</h3>
+            <p>Handmade flaky pastry with rich feta filling. Perfect for breakfast or a snack.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Feta Cheese Roll</h3>
+            <p>Delicious rolls baked fresh every morning, great on the go.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Hot Dog & Mozzarella Bun</h3>
+            <p>Savoury treat with melted mozzarella and premium hot dog inside soft bun.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Sweet Pastries & Seasonal Specials</h3>
+            <p>From croissants to danishes, fresh daily. Seasonal items added regularly.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p>📍 343 Carlton Hill, Carlton, Nottingham NG4 1JE, United Kingdom</p>
+        <p>📞 +44 7472 045888</p>
+        <p>🕒 Opening Hours: Tue–Sat 08:00–16:00, Sun 08:00–16:00, Mon Closed</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.637682238241!2d-1.1227766842240078!3d52.984837779717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c14fe1068a69%3A0x9d58af918e243d8a!2s343%20Carlton%20Hill%2C%20Carlton%2C%20Nottingham%20NG4%201JE%2C%20UK!5e0!3m2!1sen!2sus!4v1675000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 BG Bakery – Fresh Everyday Pastries</p>
+</footer>
+
+</body>
+</html>
